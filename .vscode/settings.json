@@ -1,0 +1,12 @@
+{
+    "css.styleSheets": [
+    
+    ],
+    "html-css-class-completion.enableEmmetSupport": true,
+    "prettier.requireConfig": true,
+    "prettier.resolveGlobalModules": true,
+    "prettier.tabWidth": 5,
+    "prettier.trailingComma": "all",
+    "prettier.useTabs": true,
+    "prettier.withNodeModules": true
+}
