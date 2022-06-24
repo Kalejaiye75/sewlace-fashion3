@@ -34,10 +34,8 @@ header {
 }
 .line-Wrapper{
     display: flex;
-        width: 70%;
-        justify-content: flex-end;
-        
-
+    width: 70%;
+    justify-content: flex-end;  
 }
 
 .line {
@@ -207,6 +205,7 @@ p {
     display: flex;
     /* gap: 3rem; */
     justify-content: space-between;
+    align-items: center;
     width: 70%;
     margin-left: 2rem;
 }
@@ -273,6 +272,10 @@ textarea {
 }
 .description2{
     display: none;
+}
+
+#name {
+    margin-right: 1rem;
 }
 
 /* @media screen and (max-height: 450px) {
@@ -440,5 +443,93 @@ textarea {
 }
 #name {
     margin-bottom: 1rem;
+}
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.head {
+    max-width: 80%;
+}
+.line-Wrapper{
+    display: flex;
+    max-width: 80%;
+    justify-content: flex-end;
+    margin-left: 4.5rem;
+}
+.line {
+    width: 400px;
+    height: 1px;
+    background-color: rgb(8, 40, 223);
+    /* margin-left: 18.5rem */
+}
+.first-div {
+    width: 80%;
+}
+.first-div2 {
+    width: 80%;
+}
+.section {
+    width: 80%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.section .div{
+    background-color: rgb(0, 98, 155);
+    margin: 8px 4px;
+}
+ .name {
+    max-width: 100%;
+    /* margin-bottom: 1rem; */
+}
+.section-2 {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 6rem;
+    align-items: center;
+    width: 80%;
+    /* margin-left: 2rem; */
+}
+#name {
+    margin-bottom: 1rem;
+}
+}
+@media (max-width: 625px) {
+    main {
+        width: 100%;
+    }
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.head {
+    max-width: 80%;
+}
+
+.line-Wrapper{
+    display: flex;
+    max-width: 80%;
+    justify-content: flex-end;
+    margin-right: .5rem;
+}
+.line {
+    width: 330px;
+    height: 1px;
+    background-color: rgb(8, 40, 223);
+
 }
 }
